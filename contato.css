@@ -1,0 +1,17 @@
+* {
+    background-color: #202530;
+    color: aliceblue;
+
+}
+
+div .fa{
+    color: rgb(190, 99, 34);
+}
+
+.w3-button{
+    background-color: rgb(146, 140, 136) !important;
+}
+
+.w3-button:hover{
+    background-color: chocolate !important;
+}

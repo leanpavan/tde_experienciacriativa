@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historymakers</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" href="http://example.com/favicon.png">
     <script src="index.js"></script>
 </head>
 <body>
-    <nav class="topnav">
-        <a href="#contact">Contato</a>
+    <nav class="top-nav">
+        <a href="contato.html">Contato</a>
         <a href="#blog">Blog</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#about">Sobre</a>
         <a href="#services">Serviços</a>
+        <a href="#about">Quem somos</a>
         <a class="active" href="#home">Home</a>
     </nav>
     <div class="container-main">
@@ -29,14 +31,33 @@
                 <span>Criamos e mantemos os websites que ajudam pessoas e organizações a crescer de forma inteligente e sustentável.</span>
             </h2>
         </div>
-        <div class="about">
+        <div id="about" class="about">
             <h1 class="about-header">
                 <span>Quem Somos</span>
             </h1>
             <h2 id="about-subtitle">
                 <span>A Historymakers é uma agência de comunicação, marketing e tecnologia localizada em Curitiba especializada na criação de sites.</span>
             </h2>
-        </div>
+
+            <div class="container-two-column">
+                <div class="two-column">
+                    <h3>Teste</h3>
+                        <image src="images/escritorio.jpeg">
+                </div>
+                <div class="two-column">
+                    <h3>Teste</h3>
+
+                    <span class="comment">Somos uma fábrica de sites localizada em Curitiba/PR que desde 2002 cria e 
+                        mantém sites das mais diversas atividades ao redor do mundo. Publicitários, designers 
+                        e desenvolvedores dedicados a promover crescimento a todos os nossos parceiros através 
+                        dos sites que desenvolvemos.  Ao longo de duas décadas construímos uma cultura própria 
+                        para gestão e desenvolvimento de projetos que garantem sua completude, excelência de entrega 
+                        e parceiras duradouras. Quer saber mais? Agende uma apresentação.</span>
+                </div>  
+            </div><!--container-two-column-->
+        </div><!--about-->
+        <div class="services">
+        </div><!--services-->
     </div>
 </body>
 </html>

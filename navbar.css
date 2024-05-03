@@ -1,0 +1,19 @@
+.top-nav {
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+
+.top-nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'headingnow24-regular';
+    letter-spacing: 2px;
+}
+
+.top-nav a:hover {
+    background-color: rgb(190, 99, 34);
+}
