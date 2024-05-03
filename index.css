@@ -1,0 +1,108 @@
+@font-face {
+    font-family: mont-heavy;
+    src: url(fonts/Mont-HeavyDEMO.otf);
+}
+
+@font-face {
+    font-family: mont-light;
+    src: url(fonts/Mont-ExtraLightDEMO.otf);
+}
+
+@font-face {
+    font-family: headingnow24-regular;
+    src: url(fonts/HeadingNowTrial-24Regular.ttf);
+}
+
+@font-face {
+    font-family: headingnow55-medium;
+    src: url(fonts/HeadingNowTrial-55Medium.ttf);
+}
+
+@font-face {
+    font-family: headingnow56-bold;
+    src: url(fonts/HeadingNowTrial-56Bold.ttf);
+}
+
+@font-face {
+    font-family: headingnow41-thin;
+    src: url(fonts/HeadingNowTrial-41Thin.ttf);
+}
+
+@font-face {
+    font-family: coolvetica-condensed;
+    src: url(fonts/coolvetica-condensed-rg.otf);
+}
+
+body {
+    background-color: #202530;
+}
+
+.topnav {
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'headingnow24-regular';
+    letter-spacing: 2px;
+}
+
+.topnav a:hover {
+    background-color: chocolate;
+}
+
+.container-main {
+    margin-top: 250px;
+    font-family: 'mont-heavy';
+}
+
+.home {
+    margin-left: 25%;
+    font-size: 24px;
+}
+
+.home-header1 {
+    color: white;
+    text-align: left;
+}
+
+.home-header2 {
+    color: white;
+    text-align: left;
+}
+
+#span-projetos {
+    background-color: chocolate;
+}
+
+.subtitle {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    overflow-wrap: break-word;
+    width: 50%;
+    font-family: 'headingnow41-thin';
+}
+
+.about {
+    text-align: left;
+    font-size: 24px;
+    margin-left: 25%;
+    margin-top: 20%;
+    color: white;
+}
+
+#about-subtitle {
+    color: chocolate;
+    font-family: 'coolvetica-condensed';
+    overflow-wrap: break-word;
+    width: 75%;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
