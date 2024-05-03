@@ -40,10 +40,11 @@ body {
 .topnav {
     overflow: hidden;
     border-bottom: 1px solid white;
+    justify-content: center;
 }
 
 .topnav a {
-    float: right;
+    margin-left: 10%;
     color: white;
     text-align: center;
     padding: 14px 16px;
