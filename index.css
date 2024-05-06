@@ -37,29 +37,9 @@ body {
     background-color: #202530;
 }
 
-.topnav {
-    overflow: hidden;
-    border-bottom: 1px solid white;
-    justify-content: center;
-}
-
-.topnav a {
-    margin-left: 10%;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'headingnow24-regular';
-    letter-spacing: 2px;
-}
-
-.topnav a:hover {
-    background-color: chocolate;
-}
-
 .container-main {
     margin-top: 250px;
+    margin-right: 40px;
     font-family: 'mont-heavy';
 }
 
@@ -79,7 +59,7 @@ body {
 }
 
 #span-projetos {
-    background-color: chocolate;
+    background-color: rgb(190, 99, 34);
 }
 
 .subtitle {
@@ -96,14 +76,89 @@ body {
     font-size: 24px;
     margin-left: 25%;
     margin-top: 20%;
+    margin-right: 40px;
     color: white;
 }
 
 #about-subtitle {
-    color: chocolate;
+    color: rgb(190, 99, 34);
     font-family: 'coolvetica-condensed';
     overflow-wrap: break-word;
     width: 75%;
     font-size: 26px;
     letter-spacing: 1px;
 }
+
+
+.container-two-column {
+    display: flex;
+    text-align: justify;
+    margin-right: 40px;
+    
+}
+
+.two-column {
+    flex: 1;
+    width: 50%;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    
+}   
+
+.two-column img{
+    width: 100%;
+    height: 100%;
+    margin-right: 40px;
+    margin-top: 500px;
+    
+}
+
+.two-column .comment {
+    font-size: 16px;
+    color: #98999c;
+    
+}
+.two-column h3 {
+    margin-right: 40px;
+}
+
+.two-column-service{
+    text-align: center;
+    display: flex;
+    background-color: green;
+    height: 700px;
+    
+
+}
+
+/* Estilo para o botão */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(190, 99, 34);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0; /* Comece com opacidade 0 */
+    transition: opacity 0.3s ease; /* Transição suave de opacidade */
+  }
+  
+  #topBtn:hover {
+    background-color: rgb(224, 71, 24);
+  }
+  
+  /* Mostrar o botão quando a opacidade é maior que 0 */
+  #topBtn.show {
+    opacity: 1;
+  }
+
+

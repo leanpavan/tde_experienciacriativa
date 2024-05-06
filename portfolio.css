@@ -1,0 +1,61 @@
+@font-face {
+    font-family: mont-heavy;
+    src: url(fonts/Mont-HeavyDEMO.otf);
+}
+
+@font-face {
+    font-family: mont-light;
+    src: url(fonts/Mont-ExtraLightDEMO.otf);
+}
+
+@font-face {
+    font-family: headingnow24-regular;
+    src: url(fonts/HeadingNowTrial-24Regular.ttf);
+}
+
+@font-face {
+    font-family: headingnow55-medium;
+    src: url(fonts/HeadingNowTrial-55Medium.ttf);
+}
+
+@font-face {
+    font-family: headingnow56-bold;
+    src: url(fonts/HeadingNowTrial-56Bold.ttf);
+}
+
+@font-face {
+    font-family: headingnow41-thin;
+    src: url(fonts/HeadingNowTrial-41Thin.ttf);
+}
+
+@font-face {
+    font-family: coolvetica-condensed;
+    src: url(fonts/coolvetica-condensed-rg.otf);
+}
+
+body {
+    background-color: #202530;
+}
+
+.image-grid {
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-title {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
